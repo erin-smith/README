@@ -45,19 +45,16 @@ function promptUser() {
 },
 {
   message: "Enter the type of license that your project uses:",
-  name: "license"
+  name: "license", 
+  default: "ISC"
 },
 {
-  message: "Do you welcome contributions to this project? Specify how you would like others to contribute :",
+  message: "The contributors to this project include:",
   name: "contributing"
 },
 {
   message: "Describe any tests and issues resolved or otherwise with your project:",
   name: "tests"
-},
-{
-  message: "Questions:",
-  name: "questions"
 },
 {
   message: "Enter a link to your Github profile picture:",
@@ -78,10 +75,10 @@ function generateREADME(answers) {
   
   * Badges https://shields.io/
 
-  ## ${answers.description}
-   - with link to live site [Link](http://a.com)
+  ${answers.description}
+   ****- with link to live site [Link](http://a.com)
 
-   - Screenshot *** if possible *** ![Image](http://url/a.png)
+   ***- Screenshot *** if possible *** ![Image](http://url/a.png)
 
   ## Table of Contents
   1. Documentation
@@ -90,21 +87,28 @@ function generateREADME(answers) {
     iii. License * [License](#license)
     iv. Contributing * [Credits](#credits)
     v. Tests
-    vi. Questions
-  2. Meta
+  2. Questions
     i. User GitHub profile picture
     ii. User GitHub email
     
 
-  ## Installation {Installation: ""}, 
-  ## Usage {Usage: ""}, 
-  ## License {License: ""}, 
+  ## Installation 
+  ${answers.installation}
+
+  ## Usage 
+  ${answers.usage}
+
+  ## License 
+  ${answers.license}
+
   ## Contributing Let me know if you have feedback or would like to help test my project! 
-       {Contributing: ""},  @ symbols
-  ## Tests {Tests: ""}, 
-  ## Questions {Questions: ""}, 
-  
-  ## Author:
+  ${answers.contributing}  @ symbols
+
+  ## Tests 
+  ${answers.tests}
+
+  ## Questions:
+
   * {GitHubEmail: ""} [GitHub](http://github.com/${answers.username})
   * {GitHubProfilePicture: ""}`;
   }
