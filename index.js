@@ -70,26 +70,25 @@ function promptUser() {
 function generateREADME(answers) {
      return `
 
- PUT README.md structure with input here
   # ${answers.repository}
   
   * Badges https://shields.io/
 
-  ${answers.description}
-   [Link](https://${answers.username}.github.io/ ${answers.repository}/)
+  Description: ${answers.description}
+   [Link](https://${answers.username}.github.io/${answers.repository}/)
 
-   ***- Screenshot *** if possible *** ![Image](http://url/a.png)
+  ![Image](${answers.installation})
 
   ## Table of Contents
   1. Documentation:
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#license)
-    * [Contributing](#Contributing)
-    * [Tests](#tests)
-    * [Questions](#Questions)
-      * User profile ![Image](http://url/a.png)
-      * User GitHub email
+   * [Installation](#Installation)
+   * [Usage](#Usage)
+   * [License](#license)
+   * [Contributing](#Contributing)
+   * [Tests](#tests)
+   * [Questions](#Questions)
+    * User profile 
+    * User email
     
     
 
@@ -102,7 +101,7 @@ function generateREADME(answers) {
   ## License 
   ${answers.license}
 
-  ## Contributing Let me know if you have feedback or would like to help test my project! 
+  ## Contributing 
   ${answers.contributing}  @ symbols
 
   ## Tests 
@@ -110,7 +109,8 @@ function generateREADME(answers) {
 
   ## Questions:
 
-  * {GitHubEmail: ""} [GitHub](http://github.com/${answers.username})
+  * [GitHub Profile](http://github.com/${answers.username})
+  * [GitHub Email](http://github.com/${answers.username})
   * {GitHubProfilePicture: ""}`;
   }
 

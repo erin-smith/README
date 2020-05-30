@@ -1,44 +1,44 @@
 
 
- PUT README.md structure with input here
-  # Quiz
+  # Responsive-Portfolio-Homework
   
   * Badges https://shields.io/
 
-  It works
-   [Link](https://erin-smith.github.io/ Quiz/)
+  Description: It's a Responsive Portfolio
+   [Link](https://erin-smith.github.io/Responsive-Portfolio-Homework/)
 
-   ***- Screenshot *** if possible *** ![Image](http://url/a.png)
+  ![Image](click the link)
 
   ## Table of Contents
   1. Documentation:
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#license)
-    * [Contributing](#Contributing)
-    * [Tests](#tests)
-    * [Questions](#Questions)
-      * User profile ![Image](http://url/a.png)
-      * User GitHub email
+   * [Installation](#Installation)
+   * [Usage](#Usage)
+   * [License](#license)
+   * [Contributing](#Contributing)
+   * [Tests](#tests)
+   * [Questions](#Questions)
+    * User profile 
+    * User email
     
     
 
   ## Installation 
-  nope
+  click the link
 
   ## Usage 
-  use it well
+  use it
 
   ## License 
   ISC
 
-  ## Contributing Let me know if you have feedback or would like to help test my project! 
-  Honza, coffee  @ symbols
+  ## Contributing 
+  chocolate  @ symbols
 
   ## Tests 
-  no
+  none
 
   ## Questions:
 
-  * {GitHubEmail: ""} [GitHub](http://github.com/erin-smith)
+  * [GitHub Profile](http://github.com/erin-smith)
+  * [GitHub Email](http://github.com/erin-smith)
   * {GitHubProfilePicture: ""}
