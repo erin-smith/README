@@ -76,20 +76,21 @@ function generateREADME(answers) {
   * Badges https://shields.io/
 
   ${answers.description}
-   ****- with link to live site [Link](http://a.com)
+   [Link](https://${answers.username}.github.io/ ${answers.repository}/)
 
    ***- Screenshot *** if possible *** ![Image](http://url/a.png)
 
   ## Table of Contents
-  1. Documentation
-    i. Installation * [Installation](#installation)
-    ii. Usage * [Usage](#usage)
-    iii. License * [License](#license)
-    iv. Contributing * [Credits](#credits)
-    v. Tests
-  2. Questions
-    i. User GitHub profile picture
-    ii. User GitHub email
+  1. Documentation:
+    * [Installation](#Installation)
+    * [Usage](#Usage)
+    * [License](#license)
+    * [Contributing](#Contributing)
+    * [Tests](#tests)
+    * [Questions](#Questions)
+      * User profile ![Image](http://url/a.png)
+      * User GitHub email
+    
     
 
   ## Installation 
