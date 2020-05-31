@@ -76,7 +76,7 @@ function generateREADME(answers) {
 
   # ${answers.repository}
   
-  * Badges https://shields.io/
+  [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
   Description: ${answers.description}
    [Link](https://${answers.username}.github.io/${answers.repository}/)
@@ -103,7 +103,8 @@ function generateREADME(answers) {
   ${answers.license}
 
   ## Contributing 
-  ${answers.contributing}  @ symbols
+    If you would like to contribute to this project or have feedback, please contact me below.
+  ${answers.contributing} [![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/0)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/0)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/1)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/1)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/2)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/2)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/3)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/3)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/4)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/4)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/5)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/5)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/6)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/6)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/7)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/7) 
 
   ## Tests 
   ${answers.tests}

@@ -1,13 +1,13 @@
 
 
-  # Responsive-Portfolio-Homework
+  # README
   
-  * Badges https://shields.io/
+  [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-  Description: open the link
-   [Link](https://erin-smith.github.io/Responsive-Portfolio-Homework/)
+  Description: Watch my video
+   [Link](https://erin-smith.github.io/README/)
 
-  ![Image](npm install node.js)
+  ![Image](Open your terminal and type the following code)
 
   ## Table of Contents
    * [Installation](#Installation)
@@ -19,17 +19,18 @@
     
     
   ## Installation 
-  npm install node.js
+  Open your terminal and type the following code
   `npm install`
 
   ## Usage 
-  Use it well
+  to create a README
 
   ## License 
   ISC
 
   ## Contributing 
-  @reptile18  @ symbols
+    If you would like to contribute to this project or have feedback, please contact me below.
+  @erin-smith @jan-gersl @Johnny Li [![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/0)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/0)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/1)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/1)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/2)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/2)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/3)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/3)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/4)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/4)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/5)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/5)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/6)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/6)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/7)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/7) 
 
   ## Tests 
   none
