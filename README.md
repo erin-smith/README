@@ -4,10 +4,10 @@
   
   * Badges https://shields.io/
 
-  Description: It's a Responsive Portfolio
+  Description: click on it
    [Link](https://erin-smith.github.io/Responsive-Portfolio-Homework/)
 
-  ![Image](click the link)
+  ![Image](click the links)
 
   ## Table of Contents
   1. Documentation:
@@ -23,16 +23,18 @@
     
 
   ## Installation 
-  click the link
+  click the links
+  ····# Install code:
+····none  
 
   ## Usage 
-  use it
+  no
 
   ## License 
   ISC
 
   ## Contributing 
-  chocolate  @ symbols
+  @Honza  @ symbols
 
   ## Tests 
   none

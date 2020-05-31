@@ -36,8 +36,12 @@ function promptUser() {
   name: "screenshot"
 },
 {
-  message: "Describe any details on how to install your project, including commands or resources:",
+  message: "Describe any details on how to install your project:",
   name: "installation"
+},
+{
+  message: "Enter the commands to install your project",
+  name: "code"
 },
 {
   message: "Describe how your project can and should be used.  Give examples.",
@@ -94,6 +98,8 @@ function generateREADME(answers) {
 
   ## Installation 
   ${answers.installation}
+  ····# Install code:
+····${answers.code}  
 
   ## Usage 
   ${answers.usage}
