@@ -84,22 +84,17 @@ function generateREADME(answers) {
   ![Image](${answers.installation})
 
   ## Table of Contents
-  1. Documentation:
    * [Installation](#Installation)
    * [Usage](#Usage)
    * [License](#license)
    * [Contributing](#Contributing)
    * [Tests](#tests)
    * [Questions](#Questions)
-    * User profile 
-    * User email
     
     
-
   ## Installation 
   ${answers.installation}
-  ····# Install code:
-····${answers.code}  
+  \`${answers.code}\`
 
   ## Usage 
   ${answers.usage}
