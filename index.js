@@ -36,24 +36,28 @@ function promptUser() {
   name: "screenshot"
 },
 {
-  message: "Describe any details on how to install your project:",
+  message: "Describe any details on how and where to install your project:",
   name: "installation"
 },
 {
-  message: "Enter the commands to install your project",
+  message: "What command should be run to install your project",
   name: "code"
+},
+{
+  message: "What command should be run to install any dependencies",
+  name: "codeA"
 },
 {
   message: "Describe how your project can and should be used.  Give examples.",
   name: "usage"
 },
 {
-  message: "Enter the type of license that your project uses:",
+  message: "Choose the type of license that your project uses:",
   name: "license", 
-  default: "ISC"
+  choices: ["ISC", "MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "NONE"]
 },
 {
-  message: "The contributors to this project include:",
+  message: "Name contributors (with Github username if possible), then an @symbol then comma (ex. @Johnny Li, @erin-smith,):",
   name: "contributing"
 },
 {
@@ -75,13 +79,14 @@ function generateREADME(answers) {
      return `
 
   # ${answers.repository}
-  
+  [![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)](https://shields.io/)
   [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-  Description: ${answers.description}
-   [Link](https://${answers.username}.github.io/${answers.repository}/)
+  ## Description
+   ${answers.description}
+   [Link to project](https://${answers.username}.github.io/${answers.repository}/)
 
-  ![Image](${answers.installation})
+  ![Image](screenshot.png)
 
   ## Table of Contents
    * [Installation](#Installation)
@@ -93,24 +98,33 @@ function generateREADME(answers) {
     
     
   ## Installation 
+  To install necessary dependencies, run the following command:
   ${answers.installation}
+  Installation code:
   \`${answers.code}\`
+  \`${answers.codeA}\`
 
   ## Usage 
   ${answers.usage}
 
   ## License 
-  ${answers.license}
+  This project is licensed under the ${answers.license} license. 
 
   ## Contributing 
     If you would like to contribute to this project or have feedback, please contact me below.
   ${answers.contributing} [![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/0)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/0)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/1)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/1)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/2)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/2)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/3)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/3)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/4)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/4)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/5)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/5)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/6)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/6)[![](https://sourcerer.io/fame/erin-smith/erin-smith/README/images/7)](https://sourcerer.io/fame/erin-smith/erin-smith/README/links/7) 
 
   ## Tests 
-  ${answers.tests}
+  To run tests, run the following command:
+​
+\```
+npm test
+``\`
+
+  Also, ${answers.tests}
 
   ## Questions:
-
+  If you have any questions about the repo, open an issue or contact me:
   * [GitHub Profile](http://github.com/${answers.username})
   * [GitHub Email](http://github.com/${answers.username})
   * {GitHubProfilePicture: ""}`;
