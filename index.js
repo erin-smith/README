@@ -58,20 +58,24 @@ const questions = [
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-function createMD (file, answers)
+function writeToFile (file, answers)
 {
-  const data = generateREADME(answers);
-  writeFileAsync(file, data);
+  writeFileAsync(file, answers, (err) => {
+  if (err) {
+    console.log(err);
+  }
+})
 }
 
-
-async function init ()
+function init ()
 {
-    let answers = await inquirer.prompt(questions);
+  inquirer.prompt(questions).then((answers) =>
+  {
     let README = generateREADME(answers);
-    await createMD("README.md", README);
+    writeToFile("README.md", README);
     console.log("Successfully wrote to README.md");
-  }
+  })
+}
 init();
 
 //* If `fs.readFile` reads a file and `fs.writeFile` writes, but _overwrites_, a file, what method do you think will allow you to _append_ text to a file?
