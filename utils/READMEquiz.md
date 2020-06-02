@@ -10,7 +10,8 @@
 ## Description
   This timed Java Script quiz asks questions, makes sounds, scores your quiz and stores the highscores in local storage on a Scoreboard.
 [Link to project](https://erin-smith.github.io/Quiz/)
-![Screenshot](./files/codequiz.png)  
+
+![Screenshot](https://github.com/erin-smith/Quiz/blob/master/files/codequiz.png) 
 
 
 ## Table of Contents
