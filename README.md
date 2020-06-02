@@ -60,10 +60,13 @@ For more information, watch the walk-through video here:
 
 
 ## Tests 
-  To run tests, run the following command:\
-\`$ npm test\` 
+  To run tests, run the following command:
+  
+ `$ npm install`  
 
-  I have tested this app extensively, you can see an example of a rendered final product here:[Link to Example Product](./utils/READMEexample.md). 
+  I have tested this app extensively, you can see an example of a rendered final product here:  
+  
+  [Link to Example Product](./utils/READMEexample.md). 
 
 ## Questions:  
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/erin-smith)  
