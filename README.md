@@ -9,14 +9,13 @@
 
 ## Description  
 
-This command-line application dynamically generates an elegant,  structured README.md. The user will be prompted for their GitHub username and other information pertaining to the project the README is for.  Much like in life, you get out what you put in. This means that the more thoroughly the user answers the prompts in this app, the better their README.md will turn out!
+This command-line application dynamically generates an elegant,  structured README.md. The user will be prompted for their GitHub username and other information pertaining to the project of which the README is for.  Much like in life, you get out what you put in. This means that the more thoroughly the user answers the prompts in this app, the better their README.md will turn out!
 
 An important thing to note is that having a screenshot is important to an appealing README.md. Please have a link handy for your screenshot when you answer the prompts or enter the filepath in the Repo where one is stored. This will render a classy final product.
 
-Here is the live site: [myREADMEbuilder](https://erin-smith.github.io/myREADMEbuilder/)
+Here is the repo: [myREADMEbuilder](https://github.com/erin-smith/myREADMEbuilder).  There are examples in the utils folder.
 
-![Screenshot](./utils/screenshot.png)
-![Screenshot](./utils/screenshot.png1)    
+![Screenshot](./utils/screenshotA.png)
 
 
 ## Installation
@@ -35,7 +34,7 @@ Installation code:
      To install necessary dependencies, run the following command(s):  
 `$ npm install inquirer`
 
-Your README.md will be populated with the following:
+## Your README.md will appear with the following:
 ***
 * Repository title
 * Badges
@@ -45,12 +44,11 @@ Your README.md will be populated with the following:
 * Installation instruction with code line
 * Usage
 * License information with badge
-* Contributing- an open invitation, list of contributore, and avatar icons of up to 7 contributors connected with your repository! Cool.
+* Contributing Section - includes an open invitation for collaboration/feedback, list of contributors, and avatar icons of up to 7 contributors connected with your repository! Cool.
 * Tests- info and space for command line
-* Questions
- * With a Link to "issues" page so users can submit a new issue
- * User GitHub picture and link to profile
- * User GitHub email badge
+* Questions - With a Link to "issues" page so users can submit a new issue
+* User GitHub picture and link to profile
+* User GitHub email badge
 
 
 ## Usage
@@ -62,19 +60,18 @@ For more information, watch the walk-through video here:
 
 ## Tests 
   To run tests, run the following command:\
-\`$ npm test\`\  
+\`$ npm test\` 
 
-  I have tested this app extensively, you can see an example of a rendered final product here: ![Link to Example Product](./utils/READMEexample.md)
+  I have tested this app extensively, you can see an example of a rendered final product here:[Link to Example Product](./utils/READMEexample.md). 
 
 ## Questions:  
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/erin-smith)  
 
-  If you have any questions about the repo, [open an issue](https://github.com/erin-smith/myREADMEbuilder/issues/new) or contact me:\  
+  If you have any questions about the repo, [open an issue](https://github.com/erin-smith/myREADMEbuilder/issues/new) or contact me:
 
 * [My GitHub Profile](http://github.com/erin-smith)
-* {![Email Me!](https://img.shields.io/badge/email:-erin.acumen@gmail.com-9cf.svg)](<"mailto:erin.acumen@gmail.com">)
+* [Email Me!](https://img.shields.io/badge/email:-erin.acumen@gmail.com-9cf.svg)
 ***
-![My Profile Picture](https://avatars.githubusercontent.com/erin-smith?size=300)`;
-}
+![My Profile Picture](https://avatars.githubusercontent.com/erin-smith?size=300)
 
 
