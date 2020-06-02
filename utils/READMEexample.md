@@ -13,7 +13,7 @@
 
 [Link to project:](https://erin-smith.github.io/myREADMEbuilder/)   
 
-![Screenshot](./utils/screenshotA.png)   
+![Screenshot](screenshotA.png)   
 
 
 ## Table of Contents
