@@ -88,7 +88,8 @@ For more information, watch the walk-through video here:
   If you have any questions about the repo, [open an issue](https://github.com/erin-smith/myREADMEbuilder/issues/new) or contact me:
 
 * [My GitHub Profile](http://github.com/erin-smith)
- [![Email Me!](https://img.shields.io/badge/email:-erin.acumen@gmail.com-9cf.svg)
+
+ ![Email Me!](https://img.shields.io/badge/email:-erin.acumen@gmail.com-9cf.svg)
 ***
 ![My Profile Picture](https://avatars.githubusercontent.com/erin-smith?size=300)
 
