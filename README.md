@@ -55,7 +55,7 @@ Installation code:
 
 This vital resource allows a project creator to spend more time working on finishing the project and less time creating a good README! 
 
-For more information, watch the walk-through video here:
+For more information, watch the walk-through video here:<iframe width="715" height="447" src="https://www.youtube.com/embed/7Sd9W3IqUdE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Tests 
