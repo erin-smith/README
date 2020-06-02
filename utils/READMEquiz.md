@@ -24,14 +24,10 @@
  
  
 ## Installation 
-  open in browser 
-To install the program, run the following command(s):``  
-
-To install necessary dependencies, run the following command(s):  
-``
+  No installation.  Just open link in the browser, click the button to begin!
 
 ## Usage 
-  This quiz is fun and challenging and dynamically renders the html/css from JavaScript. Open the link and have fun!
+  This quiz is fun and challenging and dynamically renders the html/css from JavaScript. Have fun!
 
 ## License 
 [![ISClicense](https://img.shields.io/badge/license-ISC-blue.svg)](https://shields.io/)
