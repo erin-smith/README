@@ -13,7 +13,7 @@
 
 [Link to project:](https://erin-smith.github.io/README/)   
 
-![Screenshot](./utils/screenshot.png)    
+![Link to Video](insert link here)    
 
 
 ## Table of Contents
@@ -37,7 +37,7 @@ Installation code:
 `$ npm install inquirer`
 
 ## Usage 
-  This project should be used to generate a structured, thorough README.md for your project or repo. This page is an example of how this program works.  You can also watch my video which can be foould in the README.md for this repo.  
+  This project should be used to generate a structured, thorough README.md for your project or repo. This page is an example of how this program works.  You can also watch my video which is linked in the description section of this example README.md.  
   
   After installation, you can invoke the application with the following command: `$ node index.js` and follow the prompts.
 
