@@ -62,7 +62,7 @@ For more information, watch the walk-through video here:
 ## Tests 
   To run tests, run the following command:
   
- `$ npm install`  
+ `$ npm test`  
 
   I have tested this app extensively, you can see an example of a rendered final product here:  
   
