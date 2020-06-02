@@ -13,8 +13,12 @@ const questions = [
     name: "repository"
   },
   {
-    message: "Briefly decribe your project: what it does, how it works, why this is useful or noteworthy:",
+    message: "Describe your project: What does it do?  How does it work? Pitch your project. Why is it useful/noteworthy? Any Challenges that you faced or future developments to come? ",
     name: "description"
+  },
+  {
+    message: "What technologies are used?",
+    name: "technology"
   },
   {
     message: "Please type the link to a screenshot of your project:",
@@ -33,7 +37,7 @@ const questions = [
     name: "codeA"
   },
   {
-    message: "Describe how your project can and should be used.  Give examples.",
+    message: "Describe how your project can/should be used.  Give examples.",
     name: "usage"
   },
   {
@@ -51,6 +55,10 @@ const questions = [
     name: "tests"
   },
   {
+    message: "What command(s) do you use to run tests?:",
+    name: "testcode"
+  },
+  {
     message: "What is your contact email, listed on your Github profile?:",
     name: "email"
   }
@@ -60,11 +68,12 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 function writeToFile (file, answers)
 {
-  writeFileAsync(file, answers, (err) => {
-  if (err) {
-    console.log(err);
-  }
-})
+  writeFileAsync(file, answers, (err) =>
+  {
+    if (err) {
+      console.log(err);
+    }
+  })
 }
 
 function init ()

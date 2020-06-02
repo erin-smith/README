@@ -1,11 +1,11 @@
-function generateREADME(answers) {
+function generateREADME (answers)
+{
   return `
 
 # ${answers.repository}
 [![Github Status](https://img.shields.io/badge/build-passing-green.svg)](https://shields.io/)
-![npm](https://img.shields.io/npm/v/npm)
+![${answers.technology}](https://img.shields.io/${answers.technology}/v/${answers.technology})
 [![Awesome Project](https://img.shields.io/badge/%F0%9F%A4%A9-Awesome%20project-blueviolet.svg)](https://shields.io/)
-[![${answers.license}license](https://img.shields.io/badge/license-${answers.license}-blue.svg)](https://shields.io/)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
@@ -20,18 +20,16 @@ function generateREADME(answers) {
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [License](#license)
+* [License](#License)
 * [Contributing](#Contributing)
-* [Tests](#tests)
+* [Tests](#Tests)
 * [Questions](#Questions)
  
  
 ## Installation 
   ${answers.installation} \
 
-Installation code:\  
-
-To install necessary dependencies, run the following command:\
+To install the program, run the following command(s):\
 \`${answers.code}\`\  
 
 To install necessary dependencies, run the following command(s):\  
@@ -42,7 +40,7 @@ To install necessary dependencies, run the following command(s):\
   ${answers.usage}
 
 ## License 
-[![${answers.license}license](https://img.shields.io/badge/license-${answers.license}-blue.svg)](https://shields.io/)\
+[![${answers.license}license](https://img.shields.io/badge/license-${answers.license}-blue.svg)](https://shields.io/)
   This project is licensed under the ${answers.license} license. 
 
 ## Contributing   
@@ -62,12 +60,12 @@ To install necessary dependencies, run the following command(s):\
 
 ## Tests 
   To run tests, run the following command:\
-\`$ npm test\`\  
+\`${answers.testcode}\`\  
 
   Also, ${answers.tests}
 
 ## Questions:  
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/${answers.username})\  
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/${answers.username})  
 
   If you have any questions about the repo, [open an issue](https://github.com/${answers.username}/${answers.repository}/issues/new) or contact me:\  
 

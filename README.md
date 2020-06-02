@@ -13,7 +13,7 @@
 
 [Link to project:](https://erin-smith.github.io/README/)   
 
-![Link to Video](insert link here)    
+![Screenshot](./utils/screenshotA.png)   
 
 
 ## Table of Contents
