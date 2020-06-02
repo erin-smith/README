@@ -9,13 +9,22 @@
 
 ## Description  
 
-This command-line application dynamically generates an elegant,  structured README.md. The user will be prompted for their GitHub username and other information pertaining to the project of which the README is for.  Much like in life, you get out what you put in. This means that the more thoroughly the user answers the prompts in this app, the better their README.md will turn out!
+This command-line application dynamically generates an elegant,  structured README.md. The user is prompted for their GitHub username and other information pertaining to the project that the README is for. **Pro tip:** The more thoroughly the user answers the prompts in this app, the better their README.md will turn out!
 
-An important thing to note is that having a screenshot is important to an appealing README.md. Please have a link handy for your screenshot when you answer the prompts or enter the filepath in the Repo where one is stored. This will render a classy final product.
+Having a screenshot is important to an appealing README.md. Please have a link handy for your screenshot when you answer the prompts or enter the filepath in the Repo where one is stored. This will render a classy compelling product.
 
-Here is the repo: [myREADMEbuilder](https://github.com/erin-smith/myREADMEbuilder).  There are examples in the utils folder.
+Here is the repo: [myREADMEbuilder](https://github.com/erin-smith/myREADMEbuilder). 
+
+There are examples in the utils folder.
 
 ![Screenshot](./utils/screenshotA.png)
+  
+## Table of Contents
+* [Installation](#Installation)
+* [Contents](#Contents)
+* [Usage](#Usage)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
 ## Installation
 
@@ -33,8 +42,9 @@ Installation code:
      To install necessary dependencies, run the following command(s):  
 `$ npm install inquirer`
 
-## Your README.md will appear with the following:
-***
+## Contents
+
+#### Your README.md will have the following:
 * Repository title
 * Badges
 * Description with link to project
@@ -48,6 +58,7 @@ Installation code:
 * Questions - With a Link to "issues" page so users can submit a new issue
 * User GitHub picture and link to profile
 * User GitHub email badge
+
 
 
 ## Usage
@@ -66,7 +77,8 @@ For more information, watch the walk-through video here:
 
   I have tested this app extensively, you can see an example of a rendered final product here:  
   
-  [Link to Example Product](./utils/READMEexample.md). 
+  [Link to Example Product](./utils/READMEexample.md) 
+  [Link to Example Product](./utils/READMEquiz.md)
 
 ## Questions:  
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/erin-smith)  
