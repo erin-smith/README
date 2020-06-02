@@ -10,8 +10,9 @@ function generateREADME(answers) {
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 ## Description
-  ${answers.description} \
-[Link to project:](https://${answers.username}.github.io/${answers.repository}/)\
+  ${answers.description}\
+
+[Link to project](https://${answers.username}.github.io/${answers.repository}/)\
 
 ![Screenshot](${answers.screenshot})
 
@@ -27,10 +28,13 @@ function generateREADME(answers) {
 ## Installation 
   ${answers.installation} \
 
-Installation code:To install necessary dependencies, run the following command:\
-\`${answers.code}\`\
+Installation code:\  
+
+To install necessary dependencies, run the following command:\
+\`${answers.code}\`\  
+
 To install necessary dependencies, run the following command(s):\  
->\`${answers.codeA}\`\
+\`${answers.codeA}\`\
 
 
 ## Usage 
@@ -41,10 +45,9 @@ To install necessary dependencies, run the following command(s):\
   This project is licensed under the ${answers.license} license. 
 
 ## Contributing   
- If you would like to contribute to this project or have feedback, please contact me below in the Questions Section.\
-
- Contributors: \ 
-${answers.contributing} \  
+ If you would like to contribute to this project or have feedback, please contact me below in the Questions Section.
+***
+ **Contributors:** ${answers.contributing} \  
 ***
 [![](https://sourcerer.io/fame/${answers.username}/${answers.username}/${answers.repository}/images/0)](https://sourcerer.io/fame/${answers.username}/${answers.username}/${answers.repository}/links/0)
 [![](https://sourcerer.io/fame/${answers.username}/${answers.username}/${answers.repository}/images/1)](https://sourcerer.io/fame/${answers.username}/${answers.username}/${answers.repository}/links/1)
@@ -58,17 +61,19 @@ ${answers.contributing} \
 
 ## Tests 
   To run tests, run the following command:\
->\`npm test\`\  
+\`$ npm test\`\  
 
   Also, ${answers.tests}
 
 ## Questions:  
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/${answers.username})\ 
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/${answers.username})\  
+
   If you have any questions about the repo, [open an issue](https://github.com/${answers.username}/${answers.repository}/issues/new) or contact me:\  
 
 * [My GitHub Profile](http://github.com/${answers.username})
 * [![Email Me!](https://img.shields.io/badge/email:-${answers.email}-9cf.svg)]("mailto:${answers.email}")
-* ![My Profile Picture](https://avatars.githubusercontent.com/${answers.username}?size=300)`;
+***
+![My Profile Picture](https://avatars.githubusercontent.com/${answers.username}?size=300)`;
 }
 
 
