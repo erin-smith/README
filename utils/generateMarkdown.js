@@ -14,7 +14,8 @@ function generateREADME(answers) {
 
 [Link to project](https://${answers.username}.github.io/${answers.repository}/)\
 
-![Screenshot](${answers.screenshot})
+![Screenshot](${answers.screenshot})\  
+
 
 ## Table of Contents
 * [Installation](#Installation)

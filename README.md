@@ -11,7 +11,10 @@
 ## Description
   This is a command-line application that dynamically generates an elegant README.md from a user's input.
 
-[Link to project:](https://erin-smith.github.io/README/)
+[Link to project:](https://erin-smith.github.io/README/)   
+
+![Screenshot](./utils/screenshot.png)    
+
 
 ## Table of Contents
 * [Installation](#Installation)
