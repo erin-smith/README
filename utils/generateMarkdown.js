@@ -4,7 +4,7 @@ function generateREADME (answers)
 
 # ${answers.repository}
 [![Github Status](https://img.shields.io/badge/build-passing-green.svg)](https://shields.io/)
-![${answers.technology}](https://img.shields.io/${answers.technology}/v/${answers.technology})
+![npm](https://img.shields.io/npm/v/npm)
 [![Awesome Project](https://img.shields.io/badge/%F0%9F%A4%A9-Awesome%20project-blueviolet.svg)](https://shields.io/)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
@@ -70,7 +70,7 @@ To install necessary dependencies, run the following command(s):\
   If you have any questions about the repo, [open an issue](https://github.com/${answers.username}/${answers.repository}/issues/new) or contact me:\  
 
 * [My GitHub Profile](http://github.com/${answers.username})
-* [![Email Me!](https://img.shields.io/badge/email:-${answers.email}-9cf.svg)]("mailto:${answers.email}")
+* [![Email Me!](https://img.shields.io/badge/email:-${answers.email}-9cf.svg)](<"mailto:${answers.email}">)
 ***
 ![My Profile Picture](https://avatars.githubusercontent.com/${answers.username}?size=300)`;
 }

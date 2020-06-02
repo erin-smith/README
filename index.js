@@ -17,10 +17,6 @@ const questions = [
     name: "description"
   },
   {
-    message: "What technologies are used?",
-    name: "technology"
-  },
-  {
     message: "Please type the link to a screenshot of your project:",
     name: "screenshot"
   },
@@ -87,8 +83,5 @@ function init ()
 }
 init();
 
-//* If `fs.readFile` reads a file and `fs.writeFile` writes, but _overwrites_, a file, what method do you think will allow you to _append_ text to a file?
-
-// module.exports is an object we use to store variables or methods
 
 
