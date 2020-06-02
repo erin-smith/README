@@ -17,11 +17,6 @@ Here is the repo: [myREADMEbuilder](https://github.com/erin-smith/myREADMEbuilde
 
 ![Screenshot](./utils/screenshotA.png)
 
-For more information, watch the walk-through video here:\
-
-[![Video Tutorial](http://img.youtube.com/vi/7Sd9W3IqUdE/0.jpg)](http://www.youtube.com/watch?v=7Sd9W3IqUdE "Video Tutorial")
-
-
 ## Installation
 
 This application uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) and will be invoked with the following command:
@@ -58,6 +53,11 @@ Installation code:
 ## Usage
 
 This vital resource allows a project creator to spend more time working on finishing the project and less time creating a good README!
+
+For more information, watch the walk-through video here:
+
+[![Video Tutorial](http://img.youtube.com/vi/7Sd9W3IqUdE/0.jpg)](http://www.youtube.com/watch?v=7Sd9W3IqUdE "Video Tutorial")
+
 
 ## Tests 
   To run tests, run the following command:\
