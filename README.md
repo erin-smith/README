@@ -18,13 +18,6 @@ Here is the repo: [myREADMEbuilder](https://github.com/erin-smith/myREADMEbuilde
 There are examples in the utils folder.
 
 ![Screenshot](./utils/screenshotA.png)
-  
-## Table of Contents
-* [Installation](#Installation)
-* [Contents](#Contents)
-* [Usage](#Usage)
-* [Tests](#Tests)
-* [Questions](#Questions)
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -32,7 +25,6 @@ There are examples in the utils folder.
 * [Usage](#Usage)
 * [Tests](#Tests)
 * [Questions](#Questions)
-
 
 ## Installation
 
@@ -51,14 +43,9 @@ Installation code:
 `$ npm install inquirer`
 
 ## Contents
-<<<<<<< HEAD
-***
-#### Your README.md will have the following:
-***
-=======
 
 #### Your README.md will have the following:
->>>>>>> bbcf0581f244a23971bfa5516d83c4dd0c0c7d84
+
 * Repository title
 * Badges
 * Description with link to project
@@ -72,7 +59,6 @@ Installation code:
 * Questions - With a Link to "issues" page so users can submit a new issue
 * User GitHub picture and link to profile
 * User GitHub email badge
-
 
 
 ## Usage
@@ -91,15 +77,10 @@ For more information, watch the walk-through video here:
 
   I have tested this app extensively, you can see an example of a rendered final product here:  
   
-<<<<<<< HEAD
-  [Link to Example Product](./utils/READMEexample.md). 
-  [Link to Example Product](./utils/READMEquiz.md). 
-=======
   [Link to Example Product](./utils/READMEexample.md)
     
   [Link to Example Product](./utils/READMEquiz.md)
     
->>>>>>> bbcf0581f244a23971bfa5516d83c4dd0c0c7d84
 
 ## Questions:  
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/erin-smith)  
@@ -107,12 +88,9 @@ For more information, watch the walk-through video here:
   If you have any questions about the repo, [open an issue](https://github.com/erin-smith/myREADMEbuilder/issues/new) or contact me:
 
 * [My GitHub Profile](http://github.com/erin-smith)
-<<<<<<< HEAD
-* [![Email Me!](https://img.shields.io/badge/email:-erin.acumen@gmail.com-9cf.svg)
-=======
 
  ![Email Me!](https://img.shields.io/badge/email:-erin.acumen@gmail.com-9cf.svg)
->>>>>>> bbcf0581f244a23971bfa5516d83c4dd0c0c7d84
+
 ***
 ![My Profile Picture](https://avatars.githubusercontent.com/erin-smith?size=300)
 
